@@ -38,8 +38,8 @@ const Teams = [
        id:'4',
        tImg:timg4,
        tsimg:tsimg4,
-       name:'William Frost',
-       slug:'William-Frost',
+       name:'Saifullah',
+       slug:'Saifullah',
        title:'Volunteer',     
     }
     
