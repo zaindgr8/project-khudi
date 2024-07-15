@@ -23,7 +23,7 @@ const CtaSection = (props) => {
                 </div>
                 <div className="cta-call">
                   <span>E-mail Us!</span>
-                  <h3>contact@projectkhudi.com</h3>
+                  <h3>contact@projectkhudi.org</h3>
                 </div>
               </div>
             </div>

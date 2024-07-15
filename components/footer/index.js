@@ -110,7 +110,7 @@ const Footer = (props) =>{
                     </li>
                     <li>
                       <i className="fi flaticon-envelope"></i>
-                      contact@projectkhudi.com
+                      contact@projectkhudi.org
                     </li>
                   </ul>
                 </div>
