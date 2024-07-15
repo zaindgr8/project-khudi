@@ -23,7 +23,11 @@ const TeamSection = (props) => {
                 serves as beacons of light both on the ground and online,
                 spreading our cause. They are called warriors for a reason!
               </p>
-              <Link href="/" className="theme-btn mt-3">
+              <Link
+              target="_blank"
+                href="https://forms.gle/9a9YoVwUiig3niH29"
+                className="theme-btn mt-3"
+              >
                 Become a Volunteer
                 <i className="fa fa-angle-double-right" aria-hidden="true"></i>
               </Link>

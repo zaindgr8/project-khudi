@@ -24,13 +24,13 @@ const HomePage = () => {
             <Features />
             <Causes />
             <CtaSection />
-            <EventSection />
+            {/* <EventSection /> */}
             <TeamSection />
             <Testimonial />
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <Partner />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </Fragment>
     )
 };

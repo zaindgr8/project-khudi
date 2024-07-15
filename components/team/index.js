@@ -60,7 +60,7 @@ const TeamSection = (props) => {
           <div className="row mt-5">
             <div className="col-lg-6 offset-lg-3">
               <div className="section-title section-title2 text-center">
-                <Link href="/" className="theme-btn">
+                <Link href="/volunteer" className="theme-btn">
                   More Members
                   <i
                     className="fa fa-angle-double-right"

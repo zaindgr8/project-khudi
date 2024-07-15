@@ -70,8 +70,11 @@ const Footer = (props) =>{
                 </div>
                 <ul>
                   <li>
-                    <Link onClick={ClickHandler} href="/about">
-                      Contribute
+                    <Link
+                      onClick={ClickHandler}
+                      href={`mailto:contact@projectkhudi.org?subject=I want to contribute with Project Khudi`}
+                    >
+                       Contribute
                     </Link>
                   </li>
                   <li>
@@ -80,7 +83,11 @@ const Footer = (props) =>{
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} href="/volunteer">
+                    <Link
+                      onClick={ClickHandler}
+                      target="_blank"
+                      href="https://forms.gle/zGtyi9Yk4Kpr3dVe9"
+                    >
                       Become Partner
                     </Link>
                   </li>
@@ -177,7 +184,7 @@ const Footer = (props) =>{
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  DEVMTE SOLUTIONS
+                  DEVMATE SOLUTIONS
                 </a>
                 .
               </p>

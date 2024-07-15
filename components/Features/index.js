@@ -29,7 +29,10 @@ const Features = (props) => {
                   direction, long-term vision, and true determination, we can
                   achieve the highest and most dignified status in the world.
                 </p>
-                <Link href="/" className="theme-btn">
+                <Link
+                  href={`mailto:contact@projectkhudi.org`}
+                  className="theme-btn"
+                >
                   Learn More
                   <i
                     className="fa fa-angle-double-right"

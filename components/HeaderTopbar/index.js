@@ -14,11 +14,15 @@ const HeaderTopbar = (props) => {
                   </li>
                   <li>
                     <i className="fi flaticon-envelope"></i>{" "}
-                    info@projectkhudi.com
+                    info@projectkhudi.org
                   </li>
                   <li>
-                    <Link className="theme-btn" href="/donate">
-                      Learn More
+                    <Link
+                      className="theme-btn"
+                      href={`mailto:contact@projectkhudi.org`}
+                    >
+                      {" "}
+                      Learn More{" "}
                     </Link>
                   </li>
                 </ul>

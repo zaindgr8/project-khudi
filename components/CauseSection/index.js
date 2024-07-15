@@ -33,7 +33,7 @@ const CauseSection = (props) => {
                       <div className="case-btn">
                         <Link
                           onClick={ClickHandler}
-                          href="/donate"
+                          href={`mailto:contact@projectkhudi.org`}
                           className="theme-btn"
                         >
                           Learn More

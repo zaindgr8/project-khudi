@@ -6,6 +6,8 @@ import timg5 from "/public/images/team/5.svg";
 import timg6 from "/public/images/team/6.svg";
 import timg7 from "/public/images/team/7.svg";
 import timg8 from "/public/images/team/8.svg";
+import timg9 from "/public/images/team/9.svg";
+import timg10 from "/public/images/team/10.svg";
 
 
 import tsimg1 from "/public/images/team/ts1.jpg";
@@ -77,6 +79,22 @@ const Teams = [
     name: "Mahnoor Malik",
     slug: "Mahnoor",
     title: "Content Writer",
+  },
+  {
+    id: "9",
+    tImg: timg9,
+    tsimg: tsimg4,
+    name: "Awais Ranjha",
+    slug: "Mahnoor",
+    title: "Tench Bhata Head",
+  },
+  {
+    id: "10",
+    tImg: timg10,
+    tsimg: tsimg4,
+    name: "Nida Rafi",
+    slug: "Nida",
+    title: "Social Media Handler",
   },
 ];
 

@@ -44,11 +44,17 @@ const Hero = () => {
                     teams across multiple universities and organizations,
                     determined to be a beacon of light in the darkness. These
                     warriors never give up, fighting relentlessly against the
-                    challenges facing our homeland. We Encourage collaborations, & if you an organisation you can apply for our Partner Program.
+                    challenges facing our homeland. We Encourage collaborations,
+                    & if you an organisation you can apply for our Partner
+                    Program.
                   </p>
                 </div>
                 <div className="slide-btns">
-                  <Link href="/donate" className="theme-btn">
+                  <Link
+                    target="_blank"
+                    href="https://forms.gle/zGtyi9Yk4Kpr3dVe9"
+                    className="theme-btn"
+                  >
                     Become Partner
                     <i
                       className="fa fa-angle-double-right"
@@ -86,7 +92,7 @@ const Hero = () => {
                 </div>
                 <div className="slide-btns">
                   <Link href="/donate" className="theme-btn">
-                   Become a Volunteer
+                    Become a Volunteer
                     <i
                       className="fa fa-angle-double-right"
                       aria-hidden="true"
@@ -123,7 +129,10 @@ const Hero = () => {
                   </p>
                 </div>
                 <div className="slide-btns">
-                  <Link href="/donate" className="theme-btn">
+                  <Link
+                    href={`mailto:contact@projectkhudi.org?subject=I want to contribute with Project Khudi`}
+                    className="theme-btn"
+                  >
                     Contribute Now
                     <i
                       className="fa fa-angle-double-right"
