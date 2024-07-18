@@ -91,7 +91,10 @@ const Hero = () => {
                   </p>
                 </div>
                 <div className="slide-btns">
-                  <Link href="/donate" className="theme-btn">
+                  <Link
+                    href="https://forms.gle/9a9YoVwUiig3niH29"
+                    className="theme-btn"
+                  >
                     Become a Volunteer
                     <i
                       className="fa fa-angle-double-right"
