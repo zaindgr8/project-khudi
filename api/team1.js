@@ -7,7 +7,7 @@ import timg6 from "/public/images/team/6.svg";
 import timg7 from "/public/images/team/7.svg";
 import timg8 from "/public/images/team/8.svg";
 import timg9 from "/public/images/team/9.svg";
-import timg10 from "/public/images/team/10.svg";
+import timg10 from "/public/images/team/11.jpg";
 
 
 import tsimg1 from "/public/images/team/ts1.jpg";
@@ -38,7 +38,7 @@ const Teams = [
     tsimg: tsimg3,
     name: "Amna Ashfaque",
     slug: "Amna",
-    title: "Marketing Head",
+    title: "Marketing Lead",
   },
   {
     id: "4",
@@ -89,12 +89,12 @@ const Teams = [
     title: "Tench Bhata Head",
   },
   {
-    id: "10",
+    id: "11",
     tImg: timg10,
     tsimg: tsimg4,
-    name: "Nida Rafi",
+    name: "Kanwal Nawaz",
     slug: "Nida",
-    title: "Social Media Handler",
+    title: "Marketing Head",
   },
 ];
 
